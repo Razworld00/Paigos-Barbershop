@@ -1,5 +1,7 @@
 # Paigos Barbershop Website
 
+![Paigos Barbershop Logo](assets/images/brand/paigos-logo.webp)
+
 Professional static website for **Paigos Barbershop**, a registered barbershop in Mdantsane, East London.
 
 The site presents the Paigos brand, founder story, services, current price list, gallery, booking form, Facebook link, WhatsApp link, and visit details.
@@ -68,6 +70,9 @@ http://127.0.0.1:8080
 6. Select branch `main` and folder `/root`.
 7. Save and wait for the Pages URL.
 
+### Live Website
+👉 [https://razworld00.github.io/Paigos-Barbershop/](https://razworld00.github.io/Paigos-Barbershop/)
+
 ## Contact Details
 
 - Address: `9681 NU 3, Mdantsane, East London, 5219`
@@ -77,4 +82,4 @@ http://127.0.0.1:8080
 
 ## Credits
 
-Website developed by Raznet Solutions.
+Website developed by Raznet Solutions.(bathie28@gmail.com)
