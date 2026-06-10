@@ -41,7 +41,6 @@ Paigos/
 ├─ styles.css
 ├─ script.js
 ├─ README.md
-├─ DEPLOYMENT.md
 ├─ LICENSE
 ├─ .gitignore
 └─ .nojekyll
@@ -59,16 +58,6 @@ Open:
 ```text
 http://127.0.0.1:8080
 ```
-
-## GitHub Pages Deployment
-
-1. Create a GitHub repository, for example `Paigos-Barbershop`.
-2. Do not add GitHub's default README, `.gitignore`, or license if you are pushing this local project, because those files already exist here.
-3. Push this folder to the new repository.
-4. In GitHub, open **Settings > Pages**.
-5. Set **Source** to `Deploy from a branch`.
-6. Select branch `main` and folder `/root`.
-7. Save and wait for the Pages URL.
 
 ### Live Website
 👉 [https://razworld00.github.io/Paigos-Barbershop/](https://razworld00.github.io/Paigos-Barbershop/)
