@@ -1,0 +1,33 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Local env
+.env
+
+# Local test/build output
+dist/
+build/
+.cache/
+
+# Raw source/private business files not needed for GitHub Pages
+fb_page.html
+fb_mbasic.html
+profile.txt
+*.pdf
+
+# Keep generated screenshots/contact sheets private
+screenshots/
+tmp/

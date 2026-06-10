@@ -1,23 +1,27 @@
 # Paigos Barbershop Website
 
-Modern, responsive barbershop website for **Paigos** in Mdantsane, East London, South Africa.
+Professional static website for **Paigos Barbershop**, a registered barbershop in Mdantsane, East London.
 
-## Highlights
+The site presents the Paigos brand, founder story, services, current price list, gallery, booking form, Facebook link, WhatsApp link, and visit details.
 
-- Strong modern visual design with dark/light mode toggle
-- Mobile-first responsive layout
-- Service and pricing sections
-- Booking form that opens prefilled Facebook message
-- Professional contact section with company registration details
-- Local image assets ready for expansion
+## Live Features
+
+- Responsive landing page for desktop and mobile
+- Paigos logo and optimized local gallery assets
+- Dark/light theme toggle
+- Current price list from the Paigos poster
+- Booking form that opens a prefilled Facebook message
+- WhatsApp, Facebook, and Google Maps actions
+- Clickable gallery lightbox
+- GitHub Pages-ready static structure
 
 ## Tech Stack
 
 - HTML5
 - CSS3
 - Vanilla JavaScript
-- Font Awesome (CDN)
-- Google Fonts (CDN)
+- Font Awesome CDN
+- Google Fonts CDN
 
 ## Project Structure
 
@@ -25,43 +29,52 @@ Modern, responsive barbershop website for **Paigos** in Mdantsane, East London, 
 Paigos/
 ├─ assets/
 │  └─ images/
-│     └─ paigos-fb-1.jpg
+│     ├─ brand/
+│     │  ├─ paigos-hero.webp
+│     │  ├─ paigos-logo.jpg
+│     │  └─ paigos-logo.webp
+│     └─ gallery/
+│        └─ gallery-*.webp
 ├─ index.html
 ├─ styles.css
 ├─ script.js
-├─ profile.txt
-├─ COR14.3 (1).pdf
 ├─ README.md
+├─ DEPLOYMENT.md
 ├─ LICENSE
-└─ .gitignore
+├─ .gitignore
+└─ .nojekyll
 ```
 
 ## Run Locally
 
 ```bash
 cd /home/raz/Paigos
-python3 -m http.server 8080 --bind 0.0.0.0
+python3 -m http.server 8080
 ```
 
 Open:
-- Local: `http://127.0.0.1:8080`
-- LAN (mobile): `http://<your-lan-ip>:8080`
 
-## Contact Details on Site
+```text
+http://127.0.0.1:8080
+```
 
-- Phone: `0734477600`
+## GitHub Pages Deployment
+
+1. Create a GitHub repository, for example `Paigos-Barbershop`.
+2. Do not add GitHub's default README, `.gitignore`, or license if you are pushing this local project, because those files already exist here.
+3. Push this folder to the new repository.
+4. In GitHub, open **Settings > Pages**.
+5. Set **Source** to `Deploy from a branch`.
+6. Select branch `main` and folder `/root`.
+7. Save and wait for the Pages URL.
+
+## Contact Details
+
 - Address: `9681 NU 3, Mdantsane, East London, 5219`
-- Registration: `2026 / 297465 / 07`
-
-## Deployment
-
-This is a static site and can be deployed on:
-- GitHub Pages
-- Netlify
-- Vercel
-- Any static web host
+- WhatsApp: `+27 66 506 4427`
+- Phone: `073 4477 600`
+- Company registration: `2026 / 297465 / 07`
 
 ## Credits
 
-Developed by Raznet Solutions.
-# Paigos-Barbershop-Website
+Website developed by Raznet Solutions.
